@@ -3,12 +3,8 @@ name = "characterai-client-linux"
 version = "0.1.0"
 edition = "2021"
 
+# Dependencies
 [dependencies]
-gtk = "^0.9"
-libadwaita = "^0.1"
+gtk4 = "*"
 
-[profile.dev]
-opt-level = 0
-
-[profile.release]
-opt-level = 2
+# Remove libadwaita dependency
