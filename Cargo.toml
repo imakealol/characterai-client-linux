@@ -1,10 +1,8 @@
 [package]
-name = "characterai-client-linux"
+name = "characterai-client"
 version = "0.1.0"
+authors = ["imakealol <your-email@example.com>"]
 edition = "2021"
 
-# Dependencies
 [dependencies]
-gtk4 = "*"
-
-# Remove libadwaita dependency
+gtk = { version = "^4.0", features = ["v11"] }
