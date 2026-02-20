@@ -3,14 +3,12 @@ name = "characterai-client-linux"
 version = "0.1.0"
 edition = "2021"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
 [dependencies]
-gtk = "^0.4"
-adwaita = "^0.3"
+gtk = "^0.9"
+libadwaita = "^0.1"
 
 [profile.dev]
-opt-level = 1
+opt-level = 0
 
 [profile.release]
 opt-level = 2
